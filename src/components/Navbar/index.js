@@ -161,11 +161,12 @@ const Navbar = () => {
     <Nav>
         <NavContainer>
             <NavLogo to="/">
-            <a
+            <a  href="/"
                 style={{
                     display: "flex",
                     alignItems: "center",
                     color: "white",
+                    textDecoration: "none",
                     marginBottom: "20;",
                     cursor: "pointer",
                 }}
